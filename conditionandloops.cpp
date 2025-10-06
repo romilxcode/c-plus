@@ -293,21 +293,21 @@
 //   return 0;
 // }
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main () {
-//   int n = 10;
-//   int i = 1;
+int main () {
+  int n = 10;
+  int i = 1;
 
-//   do {
-//     cout << i << " ";
-//     i++;
-//   } while(i <=n);
+  do {
+    cout << i << " ";
+    i++;
+  } while(i <=n);
 
-//   cout << endl;
-//   return 0;
-// }
+  cout << endl;
+  return 0;
+}
 
 // Qs: Check if number is prime or not
 
@@ -456,28 +456,28 @@
 
 // using while loop:
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main() {
-    int N;
-    unsigned long long factorial = 1;
+// int main() {
+//     int N;
+//     unsigned long long factorial = 1;
 
-    cout << "Enter a number: ";
-    cin >> N;
+//     cout << "Enter a number: ";
+//     cin >> N;
 
-    if (N < 0) {
-        cout << "Factorial is not defined for negative numbers." << endl;
-    } else {
-        int i = 1;
+//     if (N < 0) {
+//         cout << "Factorial is not defined for negative numbers." << endl;
+//     } else {
+//         int i = 1;
 
-        while (i <= N) {
-            factorial *= i;
-            i++;
-        }
+//         while (i <= N) {
+//             factorial *= i;
+//             i++;
+//         }
 
-        cout << "Factorial of " << N << " is: " << factorial << endl;
-    }
+//         cout << "Factorial of " << N << " is: " << factorial << endl;
+//     }
     
-    return 0;
-}
+//     return 0;
+// }

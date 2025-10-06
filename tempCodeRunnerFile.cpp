@@ -1,27 +1,8 @@
 #include <iostream>
-using namespace std;
+// using namespace std;
 
-int main() {
-    int n = 8;
-
-    for(int i = 0; i < n; i++) {
-        // spaces
-        for(int j = 0; j < n - i - 1; j++) {
-            cout << " ";
-        }
-
-        // increasing numbers
-        for(int j = 1; j <= i + 1; j++) {
-            cout << j;
-        }
-
-        // decreasing numbers
-        for(int j = i; j >= 1; j--) {
-            cout << j;
-        }
-
-        cout << endl;
-    }
-
-    return 0;
-}
+// //  sum of 2 number
+// double sum(double a, double b) {
+//     double s = a + b;
+//     return s;
+// }
